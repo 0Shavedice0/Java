@@ -86,16 +86,16 @@ public class ex20190304 {
 		int []Cnumber=new int[a];
 		int []count=new int[2];
 		RDN(number);
-		output(number,count, "­ì©l¸ê®Æ¬°", "", "");
+		output(number,count, "åŸå§‹è³‡æ–™ç‚º", "", "");
 
 		insert(number,Bnumber,count);
-		output(Bnumber,count,"´¡¤J±Æ§Ç«á¬°","¤ñ¸û¦¸¼Æ¬°","¦ì²¾¦¸¼Æ¬°");		
+		output(Bnumber,count,"æ’å…¥æ’åºå¾Œç‚º","æ¯”è¼ƒæ¬¡æ•¸ç‚º","ä½ç§»æ¬¡æ•¸ç‚º");		
 		
 		Chose(number,Cnumber,count);
-		output(Cnumber,count,"¿ï¾Ü±Æ§Ç«á¬°","¤ñ¸û¦¸¼Æ¬°","");		
+		output(Cnumber,count,"é¸æ“‡æ’åºå¾Œç‚º","æ¯”è¼ƒæ¬¡æ•¸ç‚º","");		
 
 		BOB(number,count);
-		output(number,count,"®ğªw±Æ§Ç«á¬°","¤ñ¸û¦¸¼Æ¬°","¥æ´«¦¸¼Æ¬°");
+		output(number,count,"æ°£æ³¡æ’åºå¾Œç‚º","æ¯”è¼ƒæ¬¡æ•¸ç‚º","äº¤æ›æ¬¡æ•¸ç‚º");
 		X.close();
 	}
 
