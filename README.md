@@ -1,2 +1,2 @@
 # Java
-存放著大學時期所撰寫的程式
+University practice program
